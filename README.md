@@ -1,1 +1,13 @@
 # CaseStudy
+
+The files in this repository are as follows:
+
+- FPexecution.py is the execution file for the case study, it prints the cumulative profit and loss of the startegy given and then the annualised return & Sharpe ratio.
+
+- general_strategyclass.py is a file defining a class, "general_strategy", of all general trading strategy properties. This includes functions such as returning the Sharpe ratio of the strategy. Some functions in this class rely on certain instance variables being defined by a derived class, e.g. the "cumulative_profits" list. 
+
+- FPstrategy.py is a file defining the class "strategy", a derived class of the "general_strategy" (see above). An instance of this class carries out the given case study trading strategy with given futures data and variables X, Y, N. 
+
+- futuresA.csv, futuresB.csv are the case study futures data
+
+The idea of this code is that not only does it carry out the trading strategy for relatively generic timeseries data (it must satisfy formatting conditions as defined in FPexecution.py), you can also create another derived class of general_strategy which carries out any trading startegy you want. You can then use the analytical tools in the general_strategy class to do the same (or different!) analysis of the startegy as before, given that the derived class defines the necessary instance variables required in the general_strategy class.
