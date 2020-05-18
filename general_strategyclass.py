@@ -47,7 +47,7 @@ class general_strategy():
         # Here: revenue = cash profit + futures values profit + initial cash = cumulative profit + initial cash, as define in this algorithm.
         # daily returns (rate) = daily change of revenue / previous days revenue. See relevant derived class for details.
 
-        k.loc[self.dates[0]]=0 # setting returns rate for first day as
+        k.loc[self.dates[0]]=0 # setting returns rate for first day as zero
 
         return k
     
