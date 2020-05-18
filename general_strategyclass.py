@@ -22,7 +22,7 @@ class general_strategy():
 
     def get_common_dates(self,futures_data):
 
-        ''' Gets the common dates that the members of futures_data share. futures data is an list/iterable of pandas DataFrame/Series datasets
+        ''' Gets the common dates that the members (time series datasets) of futures_data share. futures data is an list/iterable of pandas DataFrame/Series datasets
             with different datetime indices. '''
 
         mins, maxs = [], []
