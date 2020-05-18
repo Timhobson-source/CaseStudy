@@ -54,11 +54,9 @@ N = 15
 
 our_strategy = strategy(X,Y,N,futuresA,futuresB) # creating an instance of the strategy class (see FPstrategyclass.py for details)
 
-dates = futuresB.index
-
 # plotting profit and loss
 
-plt.plot(dates, our_strategy.cumulative_profits)
+plt.plot(our_strategy.dates, our_strategy.cumulative_profits)
 
 plt.title('X = '+str(X)+', Y = '+str(Y)+', N = '+str(N))
 
