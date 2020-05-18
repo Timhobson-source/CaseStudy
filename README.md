@@ -2,9 +2,9 @@
 
 The files in this repository are as follows:
 
-- FPexecution.py is the execution file for the case study, it prints the cumulative profit and loss of the startegy given and then the annualised return & Sharpe ratio.
+- FPexecution.py is the execution file for the case study, it plots the cumulative profit & loss of the given strategy and then the annualised return & Sharpe ratio.
 
-- general_strategyclass.py is a file defining a class, "general_strategy", of all general trading strategy properties. This includes functions such as returning the Sharpe ratio of the strategy. Some functions in this class rely on certain instance variables being defined by a derived class, e.g. the "cumulative_profits" list. 
+- general_strategyclass.py is a file defining a class, "general_strategy", of all general trading strategy properties. This includes functions for analysis, such as the Sharpe ratio of the strategy. Some functions in this class rely on instance variables being defined by a derived class, e.g. the "cumulative_profits" list in "return_rate()".
 
 - FPstrategy.py is a file defining the class "strategy", a derived class of the "general_strategy" (see above). An instance of this class carries out the given case study trading strategy with given futures data and variables X, Y, N. 
 
