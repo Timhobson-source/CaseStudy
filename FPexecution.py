@@ -11,9 +11,9 @@ from FPstrategyclass import *
 
 # Importing relevant data (from files saved on PC):
 
-futuresA = pd.read_csv(# insert futuresA.csv file path)
+futuresA = pd.read_csv('insert futuresA.csv file path')  
 
-futuresB = pd.read_csv(# insert futuresB.csv file path)
+futuresB = pd.read_csv('insert futuresB.csv file path') 
 
 #################################### FORMATTING DATA #######################################################
 
