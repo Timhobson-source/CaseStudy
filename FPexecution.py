@@ -11,10 +11,9 @@ from FPstrategyclass import *
 
 # Importing relevant data (from files saved on PC):
 
-futuresA = pd.read_csv(r'C:\Users\timbo\AppData\Local\Programs\Python\Python38\Scripts\learning\futuresA.csv')
+futuresA = pd.read_csv(# insert futuresA.csv file path)
 
-futuresB = pd.read_csv(r'C:\Users\timbo\AppData\Local\Programs\Python\Python38\Scripts\learning\futuresB.csv')
-
+futuresB = pd.read_csv(# insert futuresB.csv file path)
 
 #################################### FORMATTING DATA #######################################################
 
