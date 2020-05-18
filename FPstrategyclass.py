@@ -8,12 +8,12 @@ from general_strategyclass import *
 
 class strategy(general_strategy):
 
-    ''' A class for the given trading strategy for this case study.'''
+    ''' A class for the given trading strategy properties for this case study.'''
 
     def __init__(self, X, Y, N, futuresA, futuresB):
 
 
-        ''' Simulates the strategy with the given futuresA and futures B securities and given X, Y,N.
+        ''' Simulates the strategy with the given futuresA and futures B securities and given X, Y, N.
         Note that the ordering of the inputted futuresA and futuresB pandas DataFrames with the futures_data list matters here. '''
 
 
